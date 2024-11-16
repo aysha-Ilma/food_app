@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app/Widgets/AppBarWidget.dart';
+import 'package:food_app/Widgets/CategoriesWidget.dart';
 
 class Homepage extends StatelessWidget {
   @override
@@ -63,8 +64,14 @@ class Homepage extends StatelessWidget {
             ),
           ),
           Padding(padding: EdgeInsets.only(top: 20, left:10),
-          
+          child: Text(
+            "Categories",
+            style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 20,
+            ),
           ),
+          ),
+          CategoriesWidget(),
         ],
       ),
     );
