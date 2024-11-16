@@ -51,13 +51,19 @@ class Homepage extends StatelessWidget {
                         child: TextFormField(
                           decoration: InputDecoration(
                             hintText: "what would you like to have?",
+                            border: InputBorder.none,
                           ),
-                          ),
-                        ))
+                        ),
+                      ),
+                     ),
+                      Icon(Icons.filter_list),
                   ],
                 ),
               ),
             ),
+          ),
+          Padding(padding: EdgeInsets.only(top: 20, left:10),
+          
           ),
         ],
       ),
