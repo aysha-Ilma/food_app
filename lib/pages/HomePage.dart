@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app/Widgets/AppBarWidget.dart';
 import 'package:food_app/Widgets/CategoriesWidget.dart';
+import 'package:food_app/Widgets/Popularitemswidget.dart';
 
 class Homepage extends StatelessWidget {
   @override
@@ -63,6 +64,8 @@ class Homepage extends StatelessWidget {
               ),
             ),
           ),
+
+          // category
           Padding(padding: EdgeInsets.only(top: 20, left:10),
           child: Text(
             "Categories",
@@ -71,7 +74,23 @@ class Homepage extends StatelessWidget {
             ),
           ),
           ),
+
+          //category widget
           CategoriesWidget(),
+
+          //popular Items
+          Padding(padding: EdgeInsets.only(top: 20, left:10),
+          child: Text(
+            "Popular",
+            style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 20,
+            ),
+          ),
+          ),
+
+          //Popular Item widget
+          Popularitemswidget(),
+          
         ],
       ),
     );
