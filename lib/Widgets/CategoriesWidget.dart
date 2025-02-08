@@ -11,7 +11,7 @@ class CategoriesWidget extends StatelessWidget {
 
 
           // Singal Item
-          for (int i = 0; i < 10; i++)
+          //for (int i = 0; i < 10; i++)
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
@@ -38,7 +38,6 @@ class CategoriesWidget extends StatelessWidget {
 
         
           // Singal Item
-          for (int i = 0; i < 10; i++)
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
@@ -48,6 +47,7 @@ class CategoriesWidget extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
+                        // ignore: deprecated_member_use
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 2,
                         blurRadius: 10,
@@ -65,7 +65,6 @@ class CategoriesWidget extends StatelessWidget {
 
             
           // Singal Item
-          for (int i = 0; i < 10; i++)
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
@@ -92,7 +91,6 @@ class CategoriesWidget extends StatelessWidget {
 
             
           // Singal Item
-          for (int i = 0; i < 10; i++)
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
@@ -119,7 +117,6 @@ class CategoriesWidget extends StatelessWidget {
 
         
           // Singal Item
-          for (int i = 0; i < 10; i++)
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
