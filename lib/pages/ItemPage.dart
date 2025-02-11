@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:food_app/Widgets/AppBarWidget.dart';
+import 'package:food_app/Widgets/ItemBottomNavBar.dart';
 
 class Itempage extends StatelessWidget{
   @override
@@ -164,7 +165,7 @@ class Itempage extends StatelessWidget{
         ],
         ),
         ),
-        
+        bottomNavigationBar: Itembottomnavbar(),
     );
   }
 }
